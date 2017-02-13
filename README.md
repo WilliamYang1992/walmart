@@ -23,5 +23,5 @@ Crawl specified product reviews from Wal-Mart web site
   1. Link can be multiple and just need to be separated with ';'  
   e.g. python walmart.py -l [linka];[linkb]
 
-  2. Use -t --translate option carefully thus Youdao translate API can only use 1000 times / Hour.  
-  It will translate fail when the query limit is reached.
+  2. Use -t --translate option carefully because Youdao translate API can only use 1000 times per Hour.  
+  It translate failed when the query limit is reached.
